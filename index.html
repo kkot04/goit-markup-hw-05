@@ -410,15 +410,24 @@
           <form name="contacts-form" class="modal-form">
             
             <div class="modal-wrapper">
-              <label for="user-name" class="modal-label">Name</label>
-              <div class="contacts-name-wrapper">
-                <input class="contacts-name-input" type="text" name="user-name" id="user-name" required />
-                <svg class="contacts-user-svg" height="24" width="18">
+              <label class="modal-label" for="user-name" >Name</label>
+              <div class="contacts-wrapper">
+                <input class="contacts-input" type="text" name="user-name" id="user-name" required />
+                <svg class="contacts-svg" height="24" width="18">
                   <use href="./images/icons.svg#icon-user" ></use>
                 </svg>
               </div>
             </div>
-            <label for="contacts-user-email" class="contacts-user"></label>
+            <div class="modal-wrapper" >
+              <label  class="modal-label" for="user-phone">Phone</label>
+              <div class="contacts-wrapper">
+                <input class="contacts-input" type="text" name="user-phone" id="user-phone" required/>
+                <svg class="contacts-svg height="24" width="18">
+                  <use href="./images/icons.svg#icon-phone" ></use>
+                </svg>
+              </div>
+            </div>
+            
           </form>
         </div>
     </div>
