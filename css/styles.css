@@ -747,9 +747,9 @@ body {
     margin-bottom: 16px;
 }
 
-.modal-wrapper{
+.modal-wrapper {
     margin-bottom: 8px;
-}
+  }
 
 .modal-label{
     color: var(--subtle-text, #8E8F99);
@@ -826,6 +826,12 @@ body {
 .privacy-wrapper{
     margin-bottom: 24px;
 }
+
+.contacts-input:focus-within,
+.contacts-comment-field:focus-within {
+  border-color: var(--primary-brand, #4D5AE5);
+}
+
 
 .privacy-input:checked .privacy-span{
     background-color: #404BBF;
