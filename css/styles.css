@@ -761,12 +761,12 @@ body {
     margin-bottom: 4px;
 }
 
-.contacts-name-wrapper{
+.contacts-wrapper{
     position: relative; 
 
 }
 
-.contacts-name-input{
+.contacts-input{
     width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4); 
@@ -779,11 +779,11 @@ body {
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.contacts-name-input:focus{
+.contacts-input:focus{
     border-color: #4D5AE5;
 }
 
-.contacts-user-svg{
+.contacts-svg{
     position: absolute;
     left: 16px;
     top: 50%;
@@ -791,7 +791,7 @@ body {
     transition: fill 250ms  cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.contacts-name-input:focus .contacts-user-svg{
+.contacts-input:focus .contacts-svg{
     fill: #4D5AE5; 
 }
 
