@@ -605,30 +605,32 @@ body {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    font-size: 16px;
 }
 
 .footer-form-wrapper{
-    display: flex;
-    gap: 24px;
+
     
 }
 .footer-form {
-
+    display: flex;
+    gap: 24px;
 }
 
 .footer-input{
     width: 264px;
+    height: 40px;
     border-radius: 4px;
-    border: 1px solid var(--WHITE, #FFF);
+    border: 1px solid var(--white-background, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: transparent;
     padding-top: 8px;
     padding-left: 16px;
     padding-bottom: 8px;
-    
+    color: var(--white-background, #FFF);
     font-size: 12px;
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
 }
 .footer-input::placeholder {
@@ -646,10 +648,19 @@ body {
     border-radius: 4px;
     display: flex;
     gap: 16px;
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    border: none;
     
 }
 .footer-subscr-svg {
     fill: var(--white-background);
+    margin-left: 16px;
     
 }
 
