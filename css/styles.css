@@ -790,7 +790,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms  cubic-bezier(0.4, 0, 0.2, 1);
-
+    fill: #2e2f42;
 }
 .contacts-input:focus .contacts-svg{
     fill: #4D5AE5; 
@@ -827,12 +827,13 @@ body {
     margin-bottom: 24px;
 }
 
-.contacts-input:focus-within,
+/* .contacts-input:focus-within,
 .contacts-comment-field:focus-within {
   border-color: var(--primary-brand, #4D5AE5);
-}
+} */
 
-.contats-input:focus-within + .contacts-svg {
+
+.contacts-input:focus-within + .contacts-svg {
     fill: #4D5AE5;
   }
 
