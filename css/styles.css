@@ -832,12 +832,21 @@ body {
   border-color: var(--primary-brand, #4D5AE5);
 }
 
+.contats-input:focus-within + .contacts-svg {
+    fill: var(--accent-text-color);
+  }
 
 .privacy-input:checked .privacy-span{
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD
 }
+
+.privacy-input:checked + .privacy-label > .privacy-span {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+  }
 
 .privacy-label{
     display: block;
