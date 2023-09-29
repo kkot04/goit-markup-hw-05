@@ -833,14 +833,10 @@ body {
 }
 
 .contats-input:focus-within + .contacts-svg {
-    fill: var(--accent-text-color);
+    fill: #4D5AE5;
   }
 
-.privacy-input:checked .privacy-span{
-    background-color: #404BBF;
-    border: none;
-    fill: #F4F4FD
-}
+
 
 .privacy-input:checked + .privacy-label > .privacy-span {
     background-color: #404bbf;
