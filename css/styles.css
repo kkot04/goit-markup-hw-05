@@ -776,9 +776,20 @@ body {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: #4D5AE5;
+    border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+.contacts-user-svg{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms  cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+.contacts-name-input:focus .contacts-user-svg{
+    fill: #4D5AE5; 
+}
 
 
 .btn-section {
