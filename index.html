@@ -406,14 +406,17 @@
               <use href="./images/icons.svg#icon-modal-close"></use>
             </svg>
           </button>
-          <p>Leave your contacts and we will call you back</p>
+          <p class="modal-title" >Leave your contacts and we will call you back</p>
           <form name="contacts-form" class="modal-form">
-            <label for="contacts-user-name" class="modal-label">Name</label>
+            
             <div class="modal-wrapper">
-              <input type="text" name="contacts_user_name" id="contacts_user_name" required />
-              <svg height="12" width="12">
-                <use href="./images/icons.svg#icon-user" ></use>
-              </svg>
+              <label for="contacts-user-name" class="modal-label">Name</label>
+              <div class="contacts-name-wrapper">
+                <input class="contacts-name-input" type="text" name="user-name" id="user-name" required />
+                <svg height="24" width="18">
+                  <use href="./images/icons.svg#icon-user" ></use>
+                </svg>
+              </div>
             </div>
             <label for="contacts-user-email" class="contacts-user"></label>
           </form>
